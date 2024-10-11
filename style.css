@@ -1,6 +1,6 @@
 /* Base styles */
 body {
-    background-color: #F6F5F2;
+    background-color: #ffffff;
     font-family: 'Arial', sans-serif; 
     margin: 0;
     padding: 0;
@@ -12,9 +12,8 @@ body {
 
 /* Header styles */
 header {
-    background-color: #e3f6f5;
+    background-color: #DD1572;
     text-align: center;
-    color: #24527a;
     padding: 20px;
 }
 
@@ -23,7 +22,7 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
     font-family: 'Georgia', serif; 
-    color: #1f3b4d; 
+    color: #ffffff; 
 }
 
 /* Navigation styles */
@@ -42,7 +41,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #224f58;
+    color: #ffffff;
     font-size: 1.2em;
 }
 
@@ -62,7 +61,7 @@ section h2 {
     font-size: 2em;
     margin-bottom: 10px;
     font-family: 'Georgia', serif; 
-    color: #007a8e;
+    color: #00138e;
 }
 
 /* Section paragraph styles */
@@ -75,8 +74,8 @@ section p {
 
 /* Footer styles */
 footer {
-    background-color: #74b6b6;
-    color: #fff9f9;
+    background-color: #a5a5a5;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
     width: 100%;
@@ -136,8 +135,8 @@ footer {
     height: 200px;
     object-fit: cover; 
     border-radius: 10px;
-    border: 3px solid #9cd3d3;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 3px solid #DD1572;
+    box-shadow: 10px 10px lightblue;
 }
 
 /* Table styles */
@@ -147,7 +146,7 @@ table {
     margin: 20px 0;
     font-size: 1.1em;
     text-align: left;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px lightblue;
 }
 
 th, td {
@@ -177,8 +176,13 @@ tr:nth-child(odd) {
 
 /* Table row hover effect */
 tr:hover {
-    background-color: #e3f6f5;
+    background-color: #DD1572;
 }
+
+a{
+    color:rgb(255, 68, 0);
+}
+
 
 
 
